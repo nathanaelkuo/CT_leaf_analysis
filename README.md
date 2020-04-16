@@ -3,7 +3,7 @@ MATLAB code to analyze CT scans of leaves
 
 ### References
 
-Associated CT scan data on Cyverse Data Commons is forthcoming.
+Associated CT scan data on Cyverse Data Commons may be found at this link: https://doi.org/10.25739/6atr-5773.
 
 Publication in The Plant Phenome Journal is forthcoming.
 
@@ -17,7 +17,7 @@ Jimmy Shen (2020). Tools for NIfTI and ANALYZE image (https://www.mathworks.com/
 
 The pipeline is designed to be run in the following order:
 
-1. Preprocessing: standardVolumeNII.m
+1. Preprocessing: standardizeVolumeNII.m
 2. Segmentation: segmentLeaves.m
 3. Calculation: computeMetrics.m
 
